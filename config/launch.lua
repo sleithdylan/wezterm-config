@@ -6,7 +6,7 @@ local options = {
 }
 
 if platform.is_win then
-   options.default_prog = { 'wsl.exe', '-d', 'Ubuntu', '--cd', '~' }
+   options.default_prog = { 'wsl.exe', '-d', 'Ubuntu', '--cd', '/mnt/c/dev' }
    options.launch_menu = {
       {
          label = 'Ubuntu WSL2',

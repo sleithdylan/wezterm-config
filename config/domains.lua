@@ -27,7 +27,7 @@ if platform.is_win then
          name = 'wsl:ubuntu-zsh',
          distribution = 'Ubuntu',
          username = 'kay0h',
-         default_cwd = '/home/kay0h',
+         default_cwd = '/mnt/c/dev',
          default_prog = { 'zsh', '-l' },
       },
    }
