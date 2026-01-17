@@ -10,7 +10,7 @@ if platform.is_win then
    options.launch_menu = {
       {
          label = 'Ubuntu WSL2',
-         args = { 'wsl.exe', '-d', 'Ubuntu', '--cd', '~' },
+         args = { 'wsl.exe', '-d', 'Ubuntu', '--cd', '/mnt/c/dev' },
       },
       { label = 'PowerShell Core', args = { 'pwsh', '-NoLogo' } },
       { label = 'PowerShell Desktop', args = { 'powershell' } },
