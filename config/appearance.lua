@@ -1,6 +1,5 @@
 local gpu_adapters = require('utils.gpu-adapter')
 local backdrops = require('utils.backdrops')
-local colors = require('colors.custom')
 
 return {
    max_fps = 120,
@@ -19,7 +18,7 @@ return {
    cursor_blink_rate = 650,
 
    -- color scheme
-   colors = colors,
+   color_scheme = 'Tokyo Night Moon',
 
    -- background: pass in `true` if you want wezterm to start with focus mode on (no bg images)
    background = backdrops:initial_options(false),

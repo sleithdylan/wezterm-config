@@ -24,18 +24,11 @@ if platform.is_win then
 
    options.wsl_domains = {
       {
-         name = 'wsl:ubuntu-fish',
+         name = 'wsl:ubuntu-zsh',
          distribution = 'Ubuntu',
-         username = 'kevin',
-         default_cwd = '/home/kevin',
-         default_prog = { 'fish', '-l' },
-      },
-      {
-         name = 'wsl:ubuntu-bash',
-         distribution = 'Ubuntu',
-         username = 'kevin',
-         default_cwd = '/home/kevin',
-         default_prog = { 'bash', '-l' },
+         username = 'kay0h',
+         default_cwd = '/home/kay0h',
+         default_prog = { 'zsh', '-l' },
       },
    }
 end
